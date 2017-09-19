@@ -20,9 +20,12 @@ There are three primary components to CrackLord as shown in the above image:
 
 We have a set of packages built for every release we make, if you'd like to just use that you can do it by simply following the instructions [here](http://jmmcatee.github.io/cracklord/#install).
 
-If you'd like to get things build from source, it will first require you to have a working Go build environment with the GOPATH setup.  Additionally, you'll probably want Git and Mercurial setup to gather the various libraries and plugins that we've used in the code.  
+If you'd like to get things build from source, it will first require you to have a working Go build environment with the GOPATH setup.  Additionally, you'll probably want Git and Mercurial setup to gather the various libraries and plugins that we've used in the code. 
+# needs to be more explained. How to set up GIT?
+# How to set up Mercurial?
 
-1. First, you'll need to get cracklord itself.    
+1. First, you'll need to get cracklord itself.  
+# Needs to be fixed. 
   `go get github.com/jmmcatee/cracklord`   
 
 2. Next we need to get all of the dependencies downloaded for both the resource daemon and queue daemon.    
